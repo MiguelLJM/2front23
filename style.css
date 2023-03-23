@@ -6,7 +6,7 @@ body{
 	background: black;
 	  color: white;
 }
-h1 {
+h1,h2 {
 	color: green;
 } 
 em strong{
@@ -20,5 +20,11 @@ em strong{
 	list-style: none;
 }  
 #beneficios{
-	 width:100%;
+	 width:50%;
+} 
+ul{
+	display:inline-block;
+	width:20%;
+	margin-right: 15%;
+	vertical-align: top;
 } 
