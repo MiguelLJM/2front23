@@ -18,3 +18,20 @@ nav li a{
     text transform: uppercase;
      
 }
+
+header{
+    background-color: #bbb;
+    padding: 20px 0;
+
+}
+
+.content{
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+nav{
+    float: right;
+    margin-top: 70px;
+}
