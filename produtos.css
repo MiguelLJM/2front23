@@ -1,37 +1,69 @@
 body{
-    background-color: #f4f4f4;
+    background-color: #000000;
+    color: #f0efef;
 }
-
-header{
-    background-color: #bbbbbb;
-}
-
 nav li{
     display: inline-block;
     padding: 10px;
+
 }
 nav li a{
     text-decoration: none;
-    color: #000;
+    color: #f7f7f8;
     font-size: 22px;
-    font-weight: bold
-    text transform: uppercase;
-     
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .7s;
 }
-
+nav a:hover{
+    color: #000000;
+}
 header{
-    background-color: #bbb;
-    padding: 20px 0;
-
+    background: #413f3f;
+    padding: 20px;
 }
-
 .content{
     width: 940px;
-    margin: 0 auto;
-
+    margin:0 auto;
 }
-
 nav{
     float: right;
-    margin-top: 70px;
+    margin-top: 60px;
+}
+.produtos li{
+    transition: 0.7s;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    border: 2px solid #39393f;
+    border-radius: 5px;
+    margin: 0 1%;
+    padding: 15px 0;
+}
+.produtos li:hover{
+    border-color: #ffffff;
+    transform: scale(1.05);
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produtos .preco{
+    font-size: 22px;
+    font-weight: bold;
+}
+.produtos li:active{
+    border-color: #ffffff;
+}
+.produtos li:hover h2 {
+    font-size: 30px;
+}
+ footer {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 19px;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0;
+    color: #f9f9fc;
 }
